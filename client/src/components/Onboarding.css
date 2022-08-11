@@ -1,0 +1,173 @@
+ /* ---- Onboarding ---- */
+
+ @media (min-width: 800px) {
+
+  .onboarding {
+      /* height: 100%; */
+      /* border: 3px solid green; */
+      position: absolute;
+      width: 100%;
+      top: 50%;
+      left: 50%;
+      transform:translate(-50%,-50%);
+      -moz-transform:translate(-50%,-50%);
+      -ms-transform:translate(-50%,-50%);
+      -webkit-transform:translate(-50%,-50%);
+      -o-transform:translate(-50%,-50%);
+  }
+
+    .onboarding form {
+      display: flex;
+      justify-content: center;
+    }
+ 
+    .onboarding form section {
+     display: flex;
+     flex-direction: column;
+     padding: 20px;
+     width: 40%;
+     text-align: start;
+   }
+ 
+ }
+
+ @media (max-width: 799px) {
+
+  .onboarding form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .onboarding form section {
+   display: flex;
+   flex-direction: column;
+   padding: 20px;
+   width: 90%;
+   text-align: start;
+ }
+
+}
+
+   .onboarding h1 {
+    font-size: 24px;
+    color: #452048;
+    margin-top: 48px;
+    font-family: 'Dela Gothic One', cursive;
+  }
+
+   .onboarding {
+    background-color: #ffffff;
+  }
+
+  .onboarding form input {
+    padding: 12px 32px;
+    padding-left: 16px;
+    margin: 8px 0;
+    font-size: 14px;
+    border: solid 1px #452048;
+    border-radius: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: #452048;
+  }
+
+  .onboarding form select {
+    padding: 12px 32px;
+    padding-left: 16px;
+    padding-right: 200px;
+    margin: 8px 0;
+    font-size: 14px;
+    border: solid 1px #452048;
+    border-radius: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: #636363;
+    cursor: pointer;
+  }
+
+  .onboarding form select option {
+    padding: 12px 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 8px 0;
+    font-size: 14px;
+    border: solid 1px #452048;
+    border-radius: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+  }
+
+
+  .onboarding form input::-webkit-outer-spin-button,
+  .onboarding form input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  .onboarding form label {
+    margin: 10px 0;
+    margin-top: 16px;
+    margin-bottom: 4px;
+    color: #452048;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+  }
+
+  .onboarding form .multiple-input-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .onboarding form .multiple-input-container input {
+    margin-right: 10px;
+  }
+
+  .onboarding form .multiple-input-container label {
+    padding: 12px;
+    border: solid 1px #452048;
+    border-radius: 10px;
+    transition: all 0.3s;
+    margin-right: 10px;
+    cursor: pointer
+  }
+
+  .onboarding form input[type="number"] {
+    width: 20%;
+  }
+
+  .onboarding form input[type="radio"] {
+    display: none;
+  }
+
+  .onboarding form input[type="radio"]:checked + label {
+    border: solid 1px #452048;
+    background-color: #E5E1FF;
+  }
+
+  .onboarding form input[type="submit"] {
+    background-color: #452048;
+    color: #E5E1FF;
+    border: none;
+    cursor: pointer;
+    margin-top: 24px;
+  }
+
+  .onboarding form input[type="submit"]:active {
+    background-color: rgb(226,115,155);
+  }
+
+  .onboarding form .photo-container img{
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    border-radius: 6px;
+  }
+
+  .onboarding .toggle {
+    display: flex;
+    justify-content: start;
+    gap: 32px;
+    margin-top: 16px;
+  }

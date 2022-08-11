@@ -1,0 +1,337 @@
+ /* NEW DASHBOARD */
+
+ @media (min-width: 888px) {
+    .dashboard {
+      display: grid;
+      grid-template-columns: 1fr 3fr;
+    }
+  }
+
+  @media (max-width: 887px) {
+    .dashboard {
+      display: grid;
+    }
+    .chat-container{
+      order: 1;
+    }
+  }
+
+  @media (max-width: 531px) {
+    .dashboard {
+      display: grid;
+      gap: 80px;
+    }
+    .chat-container{
+      order: 1;
+    }
+  }
+
+   .dashboard .swipe-container {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+   }
+
+   .swipe {
+    position: absolute;
+  }
+
+  .dash-instruction {
+    color: #452048;
+  }
+  
+  /* .card {
+    background-color: #fff;
+    width: 400px;
+    height: 550px;
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .card h3 {
+    margin: top;
+    color: #fff;
+  } */
+
+  @media (min-width: 888px) {
+
+    .dashboard .card-container {
+      width: 288px;
+      height: 480px;
+      margin-top: -244px;
+    }
+
+    .card {
+      width: 288px;
+      height: 520px;
+      border-radius: 10px;
+      background-color: #E5E1FF;
+      cursor: pointer;
+      -webkit-box-shadow: 4px 2px 12px 0px rgba(0,0,0,0.12); 
+      box-shadow: 4px 2px 12px 0px rgba(0,0,0,0.12);
+    }
+  
+    .card .card-img {
+      width: 288px;
+      height: 288px;
+      background-size: cover;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+  
+    .card .card-user-info {
+      border-radius: 10px;
+      text-align: left;
+      padding-left: 24px;
+      padding-right: 16px;
+      padding-top: 2px;
+    }
+
+    .swipe-div {
+      display: flex;
+      justify-content: start;
+      flex-direction: column;
+    }
+  
+    .swipe-end-info {
+      color: #452048;
+      margin-top: 280px;
+    }
+  
+    .swipe-info {
+      margin-top: 232px;
+      color: #452048;
+    }
+  
+    .card .bre {
+      height: 8px;
+    }
+  
+    .card .bre-2 {
+      height: 24px;
+    }
+
+    .left-icon {
+      width: 88px;
+      padding-right: 80px;
+    }
+    .right-icon {
+      width: 88px;
+      padding-left: 80px;
+    }
+    .no {
+      padding-top: 12px;
+      padding-right: 80px;
+      color: #452048;
+      opacity: 60%;
+      text-align: right;
+    }
+    .yes {
+      padding-top: 12px;
+      padding-left: 80px;
+      color: #452048;
+      opacity: 60%;
+      text-align: left;
+    }
+    .arrows {
+      margin-top: -160px;
+    }
+  }
+
+  @media (max-width: 887px) {
+
+    .dashboard .card-container {
+      width: 240px;
+      height: 488px;
+      margin-top: -244px;
+    }
+
+    .card {
+      width: 240px;
+      height: 488px;
+      border-radius: 10px;
+      background-color: #E5E1FF;
+      cursor: pointer;
+      -webkit-box-shadow: 4px 2px 12px 0px rgba(0,0,0,0.12); 
+      box-shadow: 4px 2px 12px 0px rgba(0,0,0,0.12);
+    }
+  
+    .card .card-img {
+      width: 240px;
+      height: 240px;
+      background-size: cover;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+  
+    .card .card-user-info {
+      border-radius: 10px;
+      text-align: left;
+      padding-left: 18px;
+      padding-right: 18px;
+      padding-top: 2px;
+    }
+
+    .swipe-div {
+      display: flex;
+      justify-content: start;
+      flex-direction: column;
+    }
+  
+    .swipe-end-info {
+      color: #452048;
+      margin-top: 272px;
+    }
+  
+    .swipe-info {
+      margin-top: 200px;
+      color: #452048;
+    }
+  
+    .card .bre {
+      height: 8px;
+    }
+  
+    .card .bre-2 {
+      height: 24px;
+    }
+
+    .left-icon {
+      width: 80px;
+      padding-right: 48px;
+    }
+    .right-icon {
+      width: 80px;
+      padding-left: 48px;
+    }
+    .no {
+      padding-top: 12px;
+      padding-right: 40px;
+      color: #452048;
+      opacity: 60%;
+    }
+    .yes {
+      padding-top: 12px;
+      padding-left: 40px;
+      color: #452048;
+      opacity: 60%;
+    }
+    .arrows {
+      margin-top: -160px;
+    }
+
+    .dashboard .chat-container {
+      margin-top: -112px;
+    }
+  }
+
+  @media (max-width: 531px) {
+
+    .dashboard .card-container {
+      width: 240px;
+      height: 488px;
+      margin-top: -164px;
+    }
+
+    .card {
+      width: 240px;
+      height: 488px;
+      border-radius: 10px;
+      background-color: #E5E1FF;
+      cursor: pointer;
+      -webkit-box-shadow: 4px 2px 12px 0px rgba(0,0,0,0.12); 
+      box-shadow: 4px 2px 12px 0px rgba(0,0,0,0.12);
+    }
+  
+    .card .card-img {
+      width: 240px;
+      height: 240px;
+      background-size: cover;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+  
+    .card .card-user-info {
+      border-radius: 10px;
+      text-align: left;
+      padding-left: 18px;
+      padding-right: 18px;
+      padding-top: 2px;
+    }
+
+    .swipe-div {
+      display: flex;
+      justify-content: start;
+      flex-direction: column;
+    }
+  
+    .swipe-end-info {
+      color: #452048;
+      margin-top: 272px;
+    }
+  
+    .swipe-info {
+      margin-top: 200px;
+      color: #452048;
+    }
+  
+    .card .bre {
+      height: 8px;
+    }
+  
+    .card .bre-2 {
+      height: 24px;
+    }
+
+    .left-icon {
+      width: 48px;
+      padding-right: 12px;
+    }
+    .right-icon {
+      width: 48px;
+      padding-left: 12px;
+    }
+    .no {
+      padding-top: 12px;
+      padding-right: 12px;
+      color: #452048;
+      opacity: 60%;
+      font-size: 10px;
+
+    }
+    .yes {
+      padding-top: 12px;
+      padding-left: 12px;
+      color: #452048;
+      opacity: 60%;
+      font-size: 10px;
+    }
+    .arrows {
+      margin-top: -160px;
+    }
+
+    .dashboard .chat-container {
+      margin-top: -112px;
+    }
+  }
+
+  .dashboard {
+    height: 100vh;
+  }
+
+  .dashboard .dash-info {
+    height: 100vh;
+  }
+
+  .dashboard .dash-info h1 {
+    font-size: 24px;
+    color: #452048;
+    margin-top: 24px;
+  }
+
+  .dashboard .dash-info p {
+    margin-top: -8px;
+  }
