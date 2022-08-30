@@ -49,12 +49,12 @@ const Home = () => {
 
                     <div className="instruction-three">
                     <img src={homeIconThree} alt="Messaging icon"/>
-                    <p>Chat with matches</p>
+                    <p>Start chatting!</p>
                     </div>
                 </div>
                 <br></br>
                 <button className="primary-button" onClick={handleClick}>
-                    {authToken ? 'Signout' : 'Get started'}
+                    {authToken ? 'Log out' : 'Get started'}
                 </button>
 
 

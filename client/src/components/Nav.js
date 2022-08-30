@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import whiteLogo from "../images/color-logo-fetch.png";
-import colorLogo from "../images/color-logo-fetch.png";
+import whiteLogo from "../images/Fetch_Logo_6.png";
+import colorLogo from "../images/Fetch_Logo_6.png";
 import { useCookies } from 'react-cookie'
 import "../components/Nav.css";
 import "../components/Auth.css";

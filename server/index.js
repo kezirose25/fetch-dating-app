@@ -254,6 +254,8 @@ app.post('/message', async (req, res) => {
     }
 })
 
+// app.listen(process.env.PORT, () => { console.log('You are connected');
+// });
 
 app.listen(PORT, () => console.log('server running on PORT ' + PORT))
 
